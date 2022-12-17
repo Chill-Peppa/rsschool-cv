@@ -1,0 +1,7 @@
+.intro__img {
+  display: block;
+  width: 200px;
+  height: 249px;
+  padding: 40px;
+  z-index: 2;
+}

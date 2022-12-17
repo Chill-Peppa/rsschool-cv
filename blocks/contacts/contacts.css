@@ -1,0 +1,8 @@
+.contacts {
+  width: 29%;
+  margin: 20px 0;
+  background-color: #e5ccc9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
