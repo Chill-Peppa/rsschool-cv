@@ -1,0 +1,8 @@
+.code__example {
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0 10px;
+  border: 1px dashed black;
+  border-radius: 10px;
+}

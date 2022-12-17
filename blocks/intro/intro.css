@@ -1,0 +1,6 @@
+.intro {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #d7d3c8;
+  width: calc(100vw - (60px + 60px));
+}

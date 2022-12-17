@@ -1,0 +1,12 @@
+.projects__link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #000;
+  opacity: 1;
+  transition: opacity 0.4s linear;
+}
+
+.projects__link:hover {
+  opacity: 0.5;
+}
