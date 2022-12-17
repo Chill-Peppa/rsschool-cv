@@ -1,0 +1,11 @@
+.education__link {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(0, 102, 255);
+  transition: opacity 0.4s linear;
+  opacity: 1;
+}
+
+.education__link:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,10 @@
+.footer__link-rss {
+  opacity: 1;
+  transition: opacity 0.4s linear;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__link-rss:hover {
+  opacity: 0.4;
+}
