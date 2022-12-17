@@ -50,6 +50,7 @@ ___
 * Baltic State Technical University (St.Petersburg). Degree of education bachelor + master
 * Web-development from Yandex.practicum (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+* JavaScript Manual on learnjavascript.ru (in progress)
 
 ___
 
