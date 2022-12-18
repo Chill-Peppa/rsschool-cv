@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curriculum vitae" />
+    <meta name="author" content="Anastasia Bodnyuk" />
+    <title>CV</title>
+    <link rel="icon" href="./images/icon.ico" />
+    <link rel="stylesheet" href="./pages/index.css" />
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <nav>
+          <ul class="header__nav">
+            <li>
+              <a class="header__link" href="#about" target="_self">About me</a>
+            </li>
+            <li>
+              <a class="header__link" href="#contact-info" target="_self"
+                >Contacts</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="#skills" target="_self">Skills</a>
+            </li>
+            <li>
+              <a class="header__link" href="#code" target="_self"
+                >Code Example</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="#projects" target="_self"
+                >My projects</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="#education" target="_self"
+                >Education</a
+              >
+            </li>
+            <li>
+              <a class="header__link" href="#lang" target="_self">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="content">
+        <section class="intro">
+          <div class="intro__img-container">
+            <img class="intro__img" alt="My photo" src="./images/avatar.jpg" />
+            <span class="intro__rectangle-vert"></span>
+          </div>
+          <div class="intro__container">
+            <div class="intro__name-container">
+              <h1 class="intro__name">Anastasia Bodnyuk</h1>
+              <span class="intro__rectangle-horiz"></span>
+            </div>
+            <p class="intro__description">Beginner frontend developer</p>
+          </div>
+        </section>
+
+        <section class="contacts" id="contact-info">
+          <h2 class="contacts__heading">Contact Information</h2>
+          <ul class="contacts__list">
+            <li class="contacts__link">
+              <img
+                class="contacts__icon"
+                alt="Phone icon"
+                src="./images/phone-icon.svg"
+              />Phone: +7 (921) 583-35-02
+            </li>
+            <li class="contacts__link">
+              <img
+                class="contacts__icon"
+                alt="Letter icon"
+                src="./images/letter-icon.svg"
+              />E-mail: www.nastya97@yandex.ru
+            </li>
+            <li class="contacts__link">
+              <img
+                class="contacts__icon"
+                alt="Telegram icon"
+                src="./images/telegram-icon.svg"
+              />Telegram: @chill_peppa
+            </li>
+            <li class="contacts__link">
+              <img
+                class="contacts__icon"
+                alt="GitHub icon"
+                src="./images/github-icon.svg"
+              />GitHub: https://github.com/Chill-Peppa
+            </li>
+            <li class="contacts__link">
+              <img
+                class="contacts__icon"
+                alt="Discord icon"
+                src="./images/discord-icon.svg"
+              />Discord: ChillPeppa (@Chill-Peppa)
+            </li>
+          </ul>
+        </section>
+
+        <section class="about" id="about">
+          <h2 class="about__info">About me</h2>
+          <p class="about__text">
+            I'm beginner frontend developer from St.Petersburg. Now I work as an
+            engineer in the field of microwave and take web development course
+            from Yandex.Practicum. I really want to get as much relevant and
+            useful knowledge as possible, so I decided to make a challenge for
+            myself and take a course from rs school!
+          </p>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2 class="skills__heading">Skills</h2>
+          <ul class="skills__list">
+            <li>HTML5</li>
+            <li>CSS (BEM)</li>
+            <li>JavaScript (Basic, DOM)</li>
+            <li>Git, GitHub</li>
+            <li>VSCode</li>
+            <li>Figma</li>
+          </ul>
+        </section>
+
+        <section class="code" id="code">
+          <h2 class="code__heading">Code example</h2>
+          <p class="code__intro">
+            The task was taken from the
+            <span class="code__span">codewars.</span>
+          </p>
+          <p class="code__description">
+            <span class="code__span">Description:</span> You are given two
+            sorted arrays that both only contain integers. Your task is to find
+            a way to merge them into a single one, sorted in asc order. Complete
+            the function mergeArrays(arr1, arr2), where arr1 and arr2 are the
+            original sorted arrays.
+          </p>
+          <code class="code__example">
+            function mergeArrays(arr1, arr2) {<br />
+            let newArray = arr1.concat(arr2);<br />
+            newArray.sort(function(a, b) {<br />
+            return a - b;<br />
+            });<br />
+            <br />
+            const uniqueValuesArr = [...new Set(newArray)];<br />
+            return uniqueValuesArr;<br />
+            };
+          </code>
+        </section>
+
+        <section class="projects" id="projects">
+          <h2 class="projects__heading">My projects</h2>
+          <ul class="projects__list">
+            <li class="projects__element">
+              <img
+                class="projects__pic"
+                alt="Project 'mesto'"
+                src="./images/mesto-pr.jpg"
+              />
+              <a
+                class="projects__link"
+                href="https://chill-peppa.github.io/mesto/index.html"
+                target="_blank"
+                >Mesto</a
+              >
+            </li>
+            <li class="projects__element">
+              <img
+                class="projects__pic"
+                alt="Project 'russian-travel'"
+                src="./images/travel-pr.jpg"
+              />
+              <a
+                class="projects__link"
+                href="https://github.com/Chill-Peppa/russian-travel"
+                target="_blank"
+                >Russian travel</a
+              >
+            </li>
+            <li class="projects__element">
+              <img
+                class="projects__pic"
+                alt="Project 'competition-bikes'"
+                src="./images/bikes-pr.jpg"
+              />
+              <a
+                class="projects__link"
+                href="https://chill-peppa.github.io/competition-bikes/index.html"
+                target="_blank"
+                >Competition bikes</a
+              >
+            </li>
+            <li class="projects__element">
+              <img
+                class="projects__pic"
+                alt="Project 'how-to-learn'"
+                src="./images/study-pr.jpg"
+              />
+              <a
+                class="projects__link"
+                href="https://github.com/Chill-Peppa/how-to-learn"
+                target="_blank"
+                >How to learn</a
+              >
+            </li>
+          </ul>
+        </section>
+
+        <section class="languages" id="languages">
+          <h2 class="languages__heading" id="lang">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__element">Russian (native speaker)</li>
+            <li class="languages__element">English (A2)</li>
+          </ul>
+        </section>
+
+        <section class="education" id="education">
+          <h2 class="education__heading">Education and courses</h2>
+          <ul class="education__list">
+            <li class="education__element">
+              Baltic State Technical University (St.Petersburg). Degree of
+              education bachelor + master
+            </li>
+            <li class="education__element">
+              Web-development from Yandex.practicum (in progress)
+            </li>
+            <li class="education__element">
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
+            </li>
+            <li class="education__element">
+              JavaScript Manual on
+              <a
+                class="education__link"
+                href="https://learn.javascript.ru/"
+                target="_blank"
+                >learnjavascript.ru</a
+              >
+              (in progress)
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <span class="footer__year">2022. &copy; Anastasia Bodnyuk</span>
+        <div class="footer__container">
+          <a
+            class="footer__link-gh"
+            href="https://github.com/Chill-Peppa"
+            target="_blank"
+            ><img
+              class="footer__gh-logo"
+              alt="GitHub logo"
+              src="./images/github-icon.svg"
+          /></a>
+          <a
+            class="footer__link-rss"
+            href="https://rs.school/js/"
+            target="_blank"
+            ><img
+              class="footer__rss-logo"
+              alt="RS-school logo"
+              src="./images/rss-logo.svg"
+          /></a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

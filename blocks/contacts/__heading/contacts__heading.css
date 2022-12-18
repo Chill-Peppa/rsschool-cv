@@ -1,0 +1,9 @@
+.contacts__heading {
+  font-weight: 500px;
+  font-size: 20px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 10px;
+  margin: 0;
+}

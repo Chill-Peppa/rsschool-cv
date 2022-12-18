@@ -1,0 +1,9 @@
+.education {
+  width: 55%;
+  margin: 20px 0 40px;
+  background-color: #e5ccc9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
