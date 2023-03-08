@@ -19,9 +19,12 @@ ___
 ___Skills___
 
 * HTML5
-* CSS (BEM)
+* CSS (BEM, SCSS/SASS)
 * JavaScript (Basic, DOM)
+* React
 * Git, GitHub
+* WebPack
+* npm
 * VSCode
 * Figma
 
@@ -48,8 +51,9 @@ ___
 
  ___Education and courses___
 * Baltic State Technical University (St.Petersburg). Degree of education bachelor + master
+* RS Schools Course «JavaScript/Front-end 2023Q1» (certificate of completion)
 * Web-development from Yandex.practicum (in progress)
-* RS Schools Course «JavaScript/Front-end. Stage 0» ()
+* RS Schools Course «React 2023Q1» (waiting for the beginning)
 * JavaScript Manual on learnjavascript.ru (in progress)
 
 ___
